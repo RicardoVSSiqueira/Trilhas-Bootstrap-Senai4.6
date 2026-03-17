@@ -1,0 +1,20 @@
+.container-sm {
+      background-color: #d1ecf1; /* Light blue */
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .container-md {
+      background-color: #c3e6cb; /* Light green */
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .container-lg {
+      background-color: #ffeeba; /* Light yellow */
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .container-xl {
+      background-color: #f5c6cb; /* Light pink */
+      padding: 20px;
+      margin-bottom: 20px;
+    }

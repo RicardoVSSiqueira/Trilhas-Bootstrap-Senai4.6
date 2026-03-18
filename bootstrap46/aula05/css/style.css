@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+   nav {
+    background-color: black;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0.5em;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+footer {
+    background-color:#343a40;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.8em;
+    text-align: left;
+  }
+  
+  th {
+    background-color: black;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  section {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+
+section img {
+  max-width: 100%; 
+  height: auto;    
+}
+
+/* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}  
+  .tabela-intuitiva {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5em;
+  text-align: left;
+}
+
+.tabela-intuitiva th, .tabela-intuitiva td {
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+.tabela-intuitiva thead {
+  background-color: #00796b;
+  color: white;
+}
+
+.baixo {
+  background-color: #d0f0c0;
+  font-weight: bold;
+}
+
+.medio {
+  background-color: #fff3cd;
+  font-weight: bold;
+}
+
+.alto {
+  background-color: #f8d7da;
+  font-weight: bold;
+}
+
+.altissimo {
+  background-color: #f5b7b1;
+  font-weight: bold;
+}
+

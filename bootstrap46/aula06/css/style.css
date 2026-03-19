@@ -1,0 +1,68 @@
+body{
+
+    background-color: #F5DEB3;
+}
+
+.navbar-brand{
+    color: #722F37;
+}
+
+.nav-link{
+    color: #722F37;
+}
+
+.card-body1{
+    background-color: #B8860B;
+    text-align: center;
+    color: #F5DEB3;
+}
+
+.card-body2{
+    background-color: #722F37;
+    text-align: center;
+    color: #F5DEB3;
+}
+
+.card-body{
+
+    background-color: #F5DEB3;
+    color: #722F37;
+}
+
+thead {
+  background-color:  #722F37;
+  color:  #F5DEB3;
+}
+
+.confirmado{
+    background-color: green;
+}
+
+.pendente{
+    background-color: #B8860B ;
+}
+
+.card-custom {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin-top: 20px;
+}
+
+.btnCadastro{
+    border-radius: 20px;
+    background-color: #722F37;
+    color: white;
+}
+
+ .card-body-cad{
+      background-color: #722F37;
+    }
+    .btn {
+      border-radius: 20px;
+      background-color: #722F37;
+      color: white;
+    }
+
+    .form-group{
+      color: #B8860B;
+    }
